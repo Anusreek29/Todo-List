@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <form id="login" action="./main.html"onsubmit="return validate(valName,valpswd)">
+        <h3>Log In</h3>
+        <input type="text" id="uname" placeholder="username" onkeyup="valName()"><br>
+        <label id="name"></label>
+        <input type="password" placeholder="password" id="password" onkeyup="valpswd()">
+        <label id="pass"></label>
+        <br>
+        <button id="button">login</button>
+    </form>
+    
+</body>
+<script src="login-1.js"></script>
+</html>
